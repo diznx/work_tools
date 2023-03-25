@@ -33,8 +33,8 @@ total_hours_entry.grid(row=3, column=0)
 total_minutes_entry.grid(row=3, column=1)
 
 time_remaining_frame = tkinter.LabelFrame(frame, text="Time remaining")
-time_remaining_frame.grid(row=6, column=0, padx=20, pady=20)
-time_remaining = tkinter.Label(frame, text="time remaining")
-time_remaining.grid(row=4, column=0, padx=20, pady=20)
+time_remaining_frame.grid(row=4, column=0, padx=10, pady=20)
+time_remaining = tkinter.Label(time_remaining_frame, text="time remaining")
+time_remaining.grid(row=5, column=0, padx=100, pady=20)
 
 root.mainloop()
